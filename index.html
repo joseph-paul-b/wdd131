@@ -4,12 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+
+    <title>WDD 131 – Dynamic Web Fundamentals – Joseph Paul</title>
+
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals home page for Joseph Paul, featuring information about me and web development resources.">
+
+    <meta name="author" content="Joseph Paul">
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 131: Dynamic Web Fundamentals</h1>
-    <p>My WDD 131 website.</p>
+
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+
+        <nav>
+            <a href="https://www.linkedin.com/in/joseph-paul-4500922ab">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Joseph Paul</h1>
+
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="about-content">
+                <p>
+                    My name is Joseph, and I am a Nigerian currently studying
+                    Software Development at Brigham Young University-Idaho.
+                    I love traveling and learning new things.
+                </p>
+
+                <img src="images/profile.jpg" alt="Joseph Paul">
+            </div>
+
+            <h3>Nigeria</h3>
+
+            <div class="location-content">
+                <img src="images/nigeria.jpg" alt="Flag of Nigeria">
+
+                <p>
+                    Nigeria is a country in West Africa known for its diverse
+                    cultures, rich history, and many natural resources. It is
+                    home to many different ethnic groups, languages, and
+                    traditions.
+                </p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+
+            <ul>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://smashingmagazine.com/">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> Joseph Paul • Nigeria
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 
 </html>
