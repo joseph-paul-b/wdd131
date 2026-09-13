@@ -1,0 +1,32 @@
+/* ==============================
+   Larger Screen Styles
+   ============================== */
+
+@media only screen and (min-width: 32rem) {
+
+    /* Hide hamburger menu on larger screens */
+    #menu-button {
+        display: none;
+    }
+
+    /* Display navigation horizontally */
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    nav a {
+        padding: 0.75rem 1rem;
+    }
+
+    /* Display temple figures in multiple columns */
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main {
+        padding: 2rem;
+    }
+}
