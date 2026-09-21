@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Nigeria, including its geography, population, capital, language, currency, and weather.">
+    <meta name="author" content="Joseph Paul">
+    <title>Nigeria | Country Page</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+<script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source
+                    srcset="images/nigeria-large.webp"
+                    media="(min-width: 768px)"
+                >
+                <img 
+                 src="images/nigeria-small.webp" 
+                alt="Beautiful landscape in Nigeria"
+                width="600"
+                height="800"
+                fetchpriority="high"
+                >
+            </picture>
+        </section>
+
+        <div class="content">
+
+            <section class="card data">
+                <h2>Data</h2>
+
+                <dl>
+                    <div>
+                        <dt>Area:</dt>
+                        <dd>923,768 km²</dd>
+                    </div>
+
+                    <div>
+                        <dt>Population:</dt>
+                        <dd>Over 230 million</dd>
+                    </div>
+
+                    <div>
+                        <dt>Capital:</dt>
+                        <dd>Abuja</dd>
+                    </div>
+
+                    <div>
+                        <dt>Languages:</dt>
+                        <dd>English and many indigenous languages</dd>
+                    </div>
+
+                    <div>
+                        <dt>Currency:</dt>
+                        <dd>Nigerian Naira (₦)</dd>
+                    </div>
+
+                    <div>
+                        <dt>Time Zone:</dt>
+                        <dd>West Africa Time (WAT)</dd>
+                    </div>
+
+                    <div>
+                        <dt>Calling Code:</dt>
+                        <dd>+234</dd>
+                    </div>
+
+                    <div>
+                        <dt>Internet TLD:</dt>
+                        <dd>.ng</dd>
+                    </div>
+                </dl>
+            </section>
+
+            <section class="card weather">
+                <h2>Weather</h2>
+
+                <img
+                    class="weather-icon"
+                    src="images/weather-partly-cloudy.svg"
+                    alt="Partly cloudy weather"
+                >
+
+                <div class="weather-info">
+                    <p><strong>Temperature:</strong> <span id="temperature">28 °C</span></p>
+                    <p><strong>Conditions:</strong> Partly Cloudy</p>
+                    <p><strong>Wind:</strong> <span id="wind-speed">10 km/h</span></p>
+                    <p><strong>Wind Chill:</strong> <span id="wind-chill">N/A</span></p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Joseph Paul | Nigeria
+        </p>
+
+        <p>
+            Last Modified:
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>
