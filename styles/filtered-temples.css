@@ -1,0 +1,203 @@
+/* ==============================
+   General Page Styles
+   ============================== */
+
+:root {
+    --primary-color: #005f73;
+    --secondary-color: #0a9396;
+    --accent-color: #ee9b00;
+    --light-color: #f8f9fa;
+    --dark-color: #1d3557;
+    --white-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+
+/* ==============================
+   Header
+   ============================== */
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+
+
+/* ==============================
+   Hamburger Button
+   ============================== */
+
+#menu-button {
+    background: none;
+    border: none;
+    color: var(--white-color);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* ==============================
+   Navigation
+   ============================== */
+
+nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav.open {
+    display: flex;
+}
+
+nav a {
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: var(--accent-color);
+    color: var(--dark-color);
+}
+
+
+/* ==============================
+   Main
+   ============================== */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+
+/* ==============================
+   Temple Grid
+   ============================== */
+
+.temple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+
+/* ==============================
+   Temple Cards
+   ============================== */
+
+.temple-card {
+    margin: 0;
+    background-color: var(--white-color);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.temple-card h2 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: var(--primary-color);
+}
+
+.temple-card p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.temple-card strong {
+    color: var(--dark-color);
+}
+
+.temple-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+
+/* ==============================
+   Footer
+   ============================== */
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem;
+}
+
+
+/* ==============================
+   Larger Screen Styles
+   ============================== */
+
+@media only screen and (min-width: 32rem) {
+
+    /* Hide hamburger menu on larger screens */
+    #menu-button {
+        display: none;
+    }
+
+    /* Display navigation horizontally */
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    nav a {
+        padding: 0.75rem 1rem;
+    }
+
+    /* Display temple cards in multiple columns */
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main {
+        padding: 2rem;
+    }
+}
