@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">How an enzyme helps a reaction</title>
+  <desc id="desc">A conceptual sequence showing a substrate fitting into an enzyme and then products leaving.</desc>
+  <rect width="600" height="300" rx="22" fill="#F4F1DE"/>
+  <text x="300" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#0B3D3A">How an enzyme helps a reaction</text>
+  <g transform="translate(112 122)">
+    <path d="M-42 18 C-48 -16 -20 -40 7 -31 C22 -25 24 -10 38 -8 C55 -5 56 20 41 31 C21 44 -28 43 -42 18 Z" fill="#2A9D8F" stroke="#0B3D3A" stroke-width="3"/>
+    <path d="M-6 -30 Q4 -10 20 -25" fill="none" stroke="#F4F1DE" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-3 -67 L15 -51 L-3 -35 Z" fill="#E9C46A" stroke="#19312F" stroke-width="2"/>
+    <text x="0" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#19312F">Substrate</text>
+    <text x="0" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#19312F">approaches</text>
+  </g>
+  <path d="M190 122 H248" stroke="#0B3D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M237 111 L250 122 L237 133" fill="none" stroke="#0B3D3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(326 122)">
+    <path d="M-43 20 C-49 -14 -22 -38 5 -30 C18 -26 24 -10 38 -8 C55 -5 56 20 41 31 C21 44 -29 43 -43 20 Z" fill="#2A9D8F" stroke="#0B3D3A" stroke-width="3"/>
+    <path d="M-5 -30 Q5 -10 21 -25" fill="#E9C46A" stroke="#19312F" stroke-width="2"/>
+    <text x="0" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#19312F">Enzyme–substrate</text>
+    <text x="0" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#19312F">interaction</text>
+  </g>
+  <path d="M405 122 H458" stroke="#0B3D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M447 111 L460 122 L447 133" fill="none" stroke="#0B3D3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(515 122)">
+    <path d="M-23 -10 L-10 -25 L3 -10 L-10 5 Z" fill="#E9C46A" stroke="#19312F" stroke-width="2"/>
+    <path d="M8 10 L22 -6 L36 10 L22 26 Z" fill="#E76F51" stroke="#19312F" stroke-width="2"/>
+    <text x="0" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#19312F">Products</text>
+    <text x="0" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#19312F">are released</text>
+  </g>
+  <text x="300" y="267" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#19312F">Enzymes lower activation energy and are not used up.</text>
+</svg>

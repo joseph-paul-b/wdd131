@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">Biomolecules that support life</title>
+  <desc id="desc">A simple educational illustration representing proteins, carbohydrates, and lipids.</desc>
+  <rect width="600" height="300" rx="22" fill="#F4F1DE"/>
+  <text x="300" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#0B3D3A">Biomolecules that support life</text>
+  <g transform="translate(115 125)">
+    <circle cx="0" cy="0" r="22" fill="#2A9D8F"/>
+    <circle cx="34" cy="-15" r="18" fill="#E9C46A"/>
+    <circle cx="48" cy="20" r="20" fill="#0B3D3A"/>
+    <circle cx="13" cy="35" r="17" fill="#E76F51"/>
+    <path d="M0 0 L34 -15 L48 20 L13 35 Z" fill="none" stroke="#19312F" stroke-width="4" stroke-linecap="round"/>
+    <text x="20" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#19312F">Proteins</text>
+  </g>
+  <g transform="translate(300 125)">
+    <g fill="#E9C46A" stroke="#19312F" stroke-width="2">
+      <circle cx="-38" cy="0" r="17"/><circle cx="-5" cy="0" r="17"/><circle cx="28" cy="0" r="17"/><circle cx="61" cy="0" r="17"/>
+    </g>
+    <path d="M-21 0 H-22 M12 0 H11 M45 0 H44" stroke="#19312F" stroke-width="4"/>
+    <text x="12" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#19312F">Carbohydrates</text>
+  </g>
+  <g transform="translate(485 125)">
+    <g fill="#2A9D8F" stroke="#0B3D3A" stroke-width="2">
+      <circle cx="-25" cy="-18" r="12"/><circle cx="0" cy="-18" r="12"/><circle cx="25" cy="-18" r="12"/>
+      <circle cx="-25" cy="8" r="12"/><circle cx="0" cy="8" r="12"/><circle cx="25" cy="8" r="12"/>
+    </g>
+    <path d="M-25 20 L-33 42 M0 20 L0 44 M25 20 L33 42" stroke="#0B3D3A" stroke-width="4" stroke-linecap="round"/>
+    <text x="0" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#19312F">Lipids</text>
+  </g>
+  <text x="300" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#19312F">Different structures • different jobs • one living system</text>
+</svg>

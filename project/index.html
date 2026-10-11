@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore biochemistry basics, including enzymes, proteins, carbohydrates, lipids, ATP, and metabolism.">
+    <meta name="author" content="Joseph Paul">
+    <title>BioChem Basics | Introduction to Biochemistry</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/project.css">
+<script src="scripts/project.js" defer></script>
+
+
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="logo" aria-hidden="true">⚗</span>
+            <span>BioChem Basics</span>
+        </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="biomolecules.html">Biomolecules</a>
+        <a href="metabolism.html">Energy &amp; Metabolism</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">Discover the chemistry of life</p>
+            <h1>Understanding Life, One Molecule at a Time</h1>
+            <p>
+                Biochemistry helps us understand the molecules and chemical
+                reactions that keep living organisms alive. Explore how
+                proteins, carbohydrates, lipids, enzymes, and ATP work
+                together in the human body.
+            </p>
+            <a class="button" href="biomolecules.html">Explore Biomolecules</a>
+        </div>
+
+       <div class="hero-badge">
+    <span>ATP</span>
+    <small>Energy for life</small>
+</div>
+    </section>
+
+    <section class="intro-section">
+        <p class="eyebrow">Why biochemistry matters</p>
+        <h2>The Chemistry Behind Living Things</h2>
+        <p>
+            Every living organism depends on chemical processes. Digestion
+            breaks food into smaller molecules, enzymes help reactions take
+            place, and cells use energy to carry out their activities.
+            Studying biochemistry helps us understand these processes and
+            how they relate to health, medicine, and the human body.
+        </p>
+        <figure class="science-figure">
+    <img
+        src="images/biomolecules.svg"
+        alt="Illustration representing proteins, carbohydrates, and lipids."
+        width="600"
+        height="300"
+        loading="lazy"
+        decoding="async">
+    <figcaption>
+        Different biomolecules perform essential roles in living organisms.
+    </figcaption>
+</figure>
+    </section>
+
+    <section class="topics-section">
+        <div class="section-heading">
+            <p class="eyebrow">Start exploring</p>
+            <h2>Explore the Main Topics</h2>
+            <p>
+                Learn about the molecules and processes that support life.
+            </p>
+        </div>
+
+        <div class="topic-grid" id="topic-list">
+            <article class="topic-card">
+                <h3>Proteins</h3>
+                <p>
+                    Discover how proteins support body structures,
+                    transport substances, and perform important functions.
+                </p>
+            </article>
+
+            <article class="topic-card">
+                <h3>Carbohydrates</h3>
+                <p>
+                    Learn how carbohydrates provide energy and contribute
+                    to important biological structures.
+                </p>
+            </article>
+
+            <article class="topic-card">
+                <h3>Lipids</h3>
+                <p>
+                    Explore how fats and other lipids store energy and
+                    help form cell membranes.
+                </p>
+            </article>
+
+            <article class="topic-card">
+                <h3>Enzymes</h3>
+                <p>
+                    Understand how enzymes speed up chemical reactions
+                    without being consumed by those reactions.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="interest-section">
+        <div class="interest-content">
+            <p class="eyebrow">Choose your learning path</p>
+            <h2>What Would You Like to Explore?</h2>
+            <p>
+                Select a topic that interests you. Your preference will
+                be saved in this browser so you can find it again later.
+            </p>
+        </div>
+
+        <form id="interest-form">
+            <label for="topic-interest">Choose a biochemistry topic</label>
+            <select id="topic-interest" name="topic-interest" required>
+                <option value="">Select a topic</option>
+                <option value="Proteins">Proteins</option>
+                <option value="Carbohydrates">Carbohydrates</option>
+                <option value="Lipids">Lipids</option>
+                <option value="Enzymes">Enzymes</option>
+                <option value="ATP and metabolism">ATP and metabolism</option>
+            </select>
+
+            <button class="button" type="submit">Save My Interest</button>
+
+            <p id="interest-message" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>BioChem Basics | Joseph Paul</p>
+    <p>Introduction to Biochemistry</p>
+    <a href="references.html">References</a>
+    <p>&copy; <span id="current-year"></span> BioChem Basics</p>
+</footer>
+
+
+</body>
+</html>
